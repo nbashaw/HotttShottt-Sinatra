@@ -1,0 +1,21 @@
+<h2>Today's Match:</h2>
+<table>
+	<tr>
+		<td><h3><%= @shot1.title %></h3></td>
+		<td class="vs">vs.</td>
+		<td><h3><%= @shot2.title %></h3></td>
+	<tr>
+	<tr>
+		<td class="shot">
+			<a href="/vote/<%= @shot1.id %>">
+			<img src="<%=@shot1.image_url%>">
+			</a>
+		</td>
+		<td></td>
+		<td class="shot">
+			<a href="/vote/<%= @shot2.id %>">
+			<img src="<%=@shot2.image_url%>">
+			</a>
+		</td>
+	</tr>
+</table>
