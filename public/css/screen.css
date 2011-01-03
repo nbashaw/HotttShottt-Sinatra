@@ -33,7 +33,7 @@ h1 a:hover {
 
 a:active {
 	position: relative;
-	top: 3px;
+	top: 1px;
 }
 
 h2 {
@@ -46,7 +46,7 @@ h2 {
 }
 
 div#match {
-	width: 500px;
+	width: 520px;
 	height: 30px;
 	border-top: 2px groove #717c87;
 	border-left: 2px groove #717c87;
@@ -82,9 +82,17 @@ td.shot {
 
 td.vs {
 	color: #ea4c89;
-	font: bold 25px Helvetica;
+	font: bold 18px Helvetica;
 	width: 50px;
 	text-shadow: 1px 1px 2px #24272b;
+	height: 40px;
+}
 
-	
+td.on_dribbble a {
+	color: #717c87;
+	font: 12px Helvetica;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-shadow: 1px 1px 2px #24272b;
+	text-decoration: none;
 }

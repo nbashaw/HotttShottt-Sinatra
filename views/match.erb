@@ -1,9 +1,9 @@
-<h2>Today's Match</h2>
+<h2>Which shot do you prefer?</h2>
 <div id="match"></div>
 <table>
 	<tr>
 		<td><h3><%= @shot1.title %></h3></td>
-		<td class="vs">vs.</td>
+		<td class="vs">or</td>
 		<td><h3><%= @shot2.title %></h3></td>
 	<tr>
 	<tr>
@@ -19,4 +19,8 @@
 			</a>
 		</td>
 	</tr>
+	<tr>
+		<td class="on_dribbble"><a href="<%= @shot1.url %>">See <%= @shot1.player.name %>'s creation on dribbble</a></td>
+		<td></td>
+		<td class="on_dribbble"><a href="<%= @shot2.url %>">See <%= @shot2.player.name %>'s creation on dribbble</a></td>	</tr>
 </table>
