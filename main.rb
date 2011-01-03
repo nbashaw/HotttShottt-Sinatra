@@ -24,6 +24,7 @@ get '/vote/*' do
   # unless leader already exists
     # create a new leader for that shot in the db with a default of 1 vote
   # else add one point to it's count
+  redirect '/'
 end
 
 get '/leaderboard' do
